@@ -1,0 +1,193 @@
+{
+	"components": [{
+			"type": "Page",
+			"id": "7761adc8",
+			"initialized": true,
+			"userProps": {
+				"orientation": "PORTRAIT",
+				"backgroundColor": "rgba( 197, 210, 28, 1 )",
+				"flexProps": {
+					"alignItems": "CENTER",
+					"justifyContent": "SPACE_AROUND",
+					"flexDirection": "COLUMN",
+					"flexWrap": "NOWRAP",
+					"direction": "INHERIT"
+				}
+			},
+			"themeProps": {
+				"Page": "Default"
+			},
+			"className": ".page",
+			"version": "6.5.2",
+			"props": {
+				"name": "page2",
+				"children": [
+					"a829471c",
+					"35f1c1a1",
+					"845d2004",
+					"980522a9",
+					"c5abb100"
+				],
+				"parent": null,
+				"orientation": "PORTRAIT"
+			}
+		},
+		{
+			"type": "StatusBar",
+			"id": "a829471c",
+			"userProps": {
+				"visible": true
+			},
+			"themeProps": {
+				"StatusBar": "Default"
+			},
+			"className": ".statusBar",
+			"props": {
+				"name": "statusBar",
+				"children": [],
+				"parent": "7761adc8"
+			}
+		},
+		{
+			"type": "HeaderBar",
+			"id": "35f1c1a1",
+			"userProps": {
+				"title": "page2",
+				"titleColor": "rgba( 0, 0, 0, 1 )",
+				"visible": true
+			},
+			"themeProps": {
+				"HeaderBar": "Default"
+			},
+			"className": ".headerBar",
+			"props": {
+				"name": "headerBar",
+				"title": "page2",
+				"children": [],
+				"parent": "7761adc8"
+			}
+		},
+		{
+			"type": "Button",
+			"id": "c5abb100",
+			"userProps": {
+				"height": 60,
+				"text": "Back",
+				"backgroundColor": "rgba( 0, 161, 241, 1 )",
+				"visible": true,
+				"alpha": 1,
+				"width": null,
+				"marginLeft": 10,
+				"marginRight": 10,
+				"usePageVariable": true,
+				"maxHeight": 60,
+				"flexProps": {
+					"positionType": "RELATIVE",
+					"marginLeft": 20,
+					"marginRight": 20,
+					"alignSelf": "STRETCH"
+				},
+				"font": {
+					"color": "rgba( 255, 255, 255, 1 )",
+					"size": 16,
+					"family": "Default"
+				}
+			},
+			"themeProps": {
+				"Sizes": "Default",
+				"Highlights": "Default"
+			},
+			"className": ".button",
+			"props": {
+				"name": "btn",
+				"text": "Back",
+				"usePageVariable": true,
+				"children": [],
+				"parent": "7761adc8"
+			}
+		},
+		{
+			"type": "Label",
+			"id": "980522a9",
+			"userProps": {
+				"left": null,
+				"top": null,
+				"right": 0,
+				"bottom": 0,
+				"height": 90,
+				"text": "This is second page",
+				"borderColor": "rgba( 255, 255, 255, 1 )",
+				"borderRadius": 0,
+				"borderWidth": 0,
+				"backgroundColor": "rgba( 0, 0, 0, 0 )",
+				"visible": true,
+				"textAlignment": "MIDCENTER",
+				"alpha": 1,
+				"width": null,
+				"marginLeft": 10,
+				"marginRight": 10,
+				"maxHeight": 90,
+				"usePageVariable": true,
+				"flexProps": {
+					"positionType": "RELATIVE",
+					"alignSelf": "STRETCH",
+					"marginLeft": 20,
+					"marginRight": 20,
+					"flexGrow": 2
+				},
+				"font": {
+					"family": "Default",
+					"size": 16
+				}
+			},
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"className": ".label",
+			"props": {
+				"name": "lbl",
+				"text": "This is second page",
+				"usePageVariable": true,
+				"children": [],
+				"parent": "7761adc8"
+			}
+		},
+		{
+			"type": "ImageView",
+			"id": "845d2004",
+			"userProps": {
+				"left": null,
+				"top": null,
+				"right": 0,
+				"bottom": 0,
+				"height": 60,
+				"image": "smartface.png",
+				"imageFillType": "ASPECTFIT",
+				"visible": true,
+				"alpha": 1,
+				"imageURL": "https://ozcan-ide-ozcanovunc.c9users.io:8081/ui-editor/img/smartface.png?os=iOS&osVersion=10.2&density=326&densityRatio=0.5&zoomLevel=0.5&brandModel=iPhone%207?random=0.7615585576130848",
+				"width": null,
+				"borderWidth": null,
+				"marginLeft": 10,
+				"marginRight": 10,
+				"maxHeight": 60,
+				"flexProps": {
+					"positionType": "RELATIVE",
+					"alignSelf": "STRETCH",
+					"marginLeft": 20,
+					"marginRight": 20,
+					"flexGrow": 4
+				}
+			},
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"className": ".imageView",
+			"props": {
+				"name": "img",
+				"children": [],
+				"parent": "7761adc8"
+			}
+		}
+	]
+}

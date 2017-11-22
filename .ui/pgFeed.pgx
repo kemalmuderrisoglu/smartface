@@ -1,0 +1,135 @@
+{
+	"components": [
+		{
+			"type": "Page",
+			"id": "4738-4240-2e71-0103",
+			"initialized": true,
+			"themeProps": {
+				"Page": "Default"
+			},
+			"userProps": {},
+			"className": ".page",
+			"version": "6.5.2",
+			"props": {
+				"name": "pgFeed",
+				"children": [
+					"c069-3187-736c-ea49",
+					"cc1a-9249-9c6f-f2c5",
+					"f3de-c4f2-bce9-4fc3",
+					"a6cf-1f7a-4360-6524"
+				],
+				"parent": null,
+				"orientation": "PORTRAIT"
+			}
+		},
+		{
+			"type": "StatusBar",
+			"id": "c069-3187-736c-ea49",
+			"themeProps": {
+				"StatusBar": "Default"
+			},
+			"userProps": {},
+			"className": ".statusBar",
+			"props": {
+				"name": "statusBar",
+				"children": [],
+				"parent": "4738-4240-2e71-0103",
+				"isRemovable": false
+			}
+		},
+		{
+			"type": "HeaderBar",
+			"id": "cc1a-9249-9c6f-f2c5",
+			"themeProps": {
+				"HeaderBar": "Default"
+			},
+			"userProps": {
+				"title": "Feed Data"
+			},
+			"className": ".headerBar",
+			"props": {
+				"name": "headerBar",
+				"title": "Feed Data",
+				"children": [],
+				"parent": "4738-4240-2e71-0103",
+				"isRemovable": false
+			}
+		},
+		{
+			"type": "ListView",
+			"id": "f3de-c4f2-bce9-4fc3",
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"width": null,
+				"height": null,
+				"usePageVariable": true,
+				"itemCount": 0,
+				"visible": false,
+				"flexProps": {
+					"flexGrow": 1
+				}
+			},
+			"className": ".listView",
+			"props": {
+				"name": "lvFeed",
+				"usePageVariable": true,
+				"children": [],
+				"parent": "4738-4240-2e71-0103"
+			}
+		},
+		{
+			"type": "FlexLayout",
+			"id": "a6cf-1f7a-4360-6524",
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"width": null,
+				"height": null,
+				"left": 0,
+				"right": 0,
+				"bottom": 0,
+				"top": 0,
+				"visible": true,
+				"usePageVariable": true,
+				"flexProps": {
+					"positionType": "ABSOLUTE",
+					"alignItems": "CENTER",
+					"alignContent": "CENTER",
+					"justifyContent": "CENTER"
+				}
+			},
+			"className": ".flexLayout",
+			"props": {
+				"name": "flWait",
+				"usePageVariable": true,
+				"children": [
+					"777c-6106-958a-0e26"
+				],
+				"parent": "4738-4240-2e71-0103"
+			}
+		},
+		{
+			"type": "ActivityIndicator",
+			"id": "777c-6106-958a-0e26",
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"usePageVariable": true,
+				"flexProps": {
+					"alignSelf": "CENTER"
+				}
+			},
+			"className": ".activityIndicator",
+			"props": {
+				"name": "activityIndicator1",
+				"usePageVariable": true,
+				"children": [],
+				"parent": "a6cf-1f7a-4360-6524"
+			}
+		}
+	]
+}

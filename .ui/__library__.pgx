@@ -1,0 +1,116 @@
+{
+	"components": [
+		{
+			"type": "Page",
+			"id": "57f4-201f-4bfc-5fc6",
+			"initialized": true,
+			"themeProps": {
+				"Page": "Default"
+			},
+			"userProps": {},
+			"className": ".page",
+			"version": "6.5.2",
+			"props": {
+				"name": "__library__",
+				"children": [
+					"23c1-aa21-38ff-148e",
+					"76f4-a7ec-36e9-a444",
+					"9eaf-5078-930b-1187"
+				],
+				"parent": null,
+				"orientation": "PORTRAIT"
+			}
+		},
+		{
+			"type": "StatusBar",
+			"id": "23c1-aa21-38ff-148e",
+			"themeProps": {
+				"StatusBar": "Default"
+			},
+			"userProps": {},
+			"className": ".statusBar",
+			"props": {
+				"name": "statusBar",
+				"children": [],
+				"parent": "57f4-201f-4bfc-5fc6",
+				"isRemovable": false
+			}
+		},
+		{
+			"type": "HeaderBar",
+			"id": "76f4-a7ec-36e9-a444",
+			"themeProps": {
+				"HeaderBar": "Default"
+			},
+			"userProps": {
+				"title": "__library__"
+			},
+			"className": ".headerBar",
+			"props": {
+				"name": "headerBar",
+				"title": "__library__",
+				"children": [],
+				"parent": "57f4-201f-4bfc-5fc6",
+				"isRemovable": false
+			}
+		},
+		{
+			"type": "ListViewItem",
+			"id": "9eaf-5078-930b-1187",
+			"source": {
+				"page": "__library__"
+			},
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"flexProps": {},
+				"left": 0,
+				"top": 231.37254901960785,
+				"width": 374.5098039215686,
+				"height": 105.88235294117646
+			},
+			"className": ".listViewItem",
+			"props": {
+				"name": "lviFeed",
+				"children": [
+					"44c2-d9f1-9b2f-49fe"
+				],
+				"parent": "57f4-201f-4bfc-5fc6"
+			}
+		},
+		{
+			"type": "Label",
+			"id": "44c2-d9f1-9b2f-49fe",
+			"source": {
+				"page": "__library__"
+			},
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"left": null,
+				"right": null,
+				"bottom": null,
+				"top": null,
+				"width": null,
+				"height": null,
+				"id": 1000,
+				"usePageVariable": true,
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"flexGrow": 1
+				}
+			},
+			"className": ".label",
+			"props": {
+				"id": 1000,
+				"name": "lblText",
+				"text": "Label",
+				"usePageVariable": true,
+				"children": [],
+				"parent": "9eaf-5078-930b-1187"
+			}
+		}
+	]
+}
