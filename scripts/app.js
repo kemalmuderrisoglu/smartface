@@ -24,5 +24,6 @@ Router.add("page1", require("./pages/page1"));
 Router.add("page2", require("./pages/page2"));
 Router.add("pgTraining", require("./pages/pgTraining"));
 Router.add("pgFeed", require("./pages/pgFeed"));
+Router.add("pgMap", require("./pages/pgMap"));
 //Router.go("page1", { appStart: true });
-Router.go("pgFeed");
+Router.go("pgMap");
